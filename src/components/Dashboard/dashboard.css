@@ -1,0 +1,20 @@
+/* max-width constrains the width of our carousel to 550, but shrinks on small devices */
+.carousel__container {
+  max-width: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+/* gives us the illusion of a "centered" slide */
+.carousel__slider {
+  padding-right: 15%;
+}
+
+/* gives us the illusion of spaces between the slides */
+.carousel__inner-slide {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  left: 10px;
+  top: 10px;
+  border-radius: 30px;
+}
